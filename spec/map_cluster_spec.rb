@@ -2,7 +2,7 @@ require 'spec_helper'
 
 RSpec.describe MapCluster do
   describe "#add_coordinate" do
-    it "Add two coordinates to one cluster" do
+    it "add two coordinates to one cluster" do
       map_cluser = MapCluster.new()
       cluster_1 = MapCluster::Coordinate.new(52.9527002, 17.9814142)
       cluster_2 = MapCluster::Coordinate.new(52.9527002, 17.9814142)
@@ -11,7 +11,7 @@ RSpec.describe MapCluster do
       expect(map_cluser.clusters.count).to eq 1
     end
 
-    it "Add two coordinates to separated clusters" do
+    it "add two coordinates to separated clusters" do
       map_cluser = MapCluster.new()
       cluster_1 = MapCluster::Coordinate.new(52.9527002, 17.9814142)
       cluster_2 = MapCluster::Coordinate.new(52.9527002, -17.9814142)

@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     map_cluster (0.1.0)
-      geocoder (>= 1.6.1)
+      geocoder (~> 1.6, >= 1.6.1)
 
 GEM
   remote: https://rubygems.org/
@@ -28,7 +28,7 @@ PLATFORMS
 
 DEPENDENCIES
   map_cluster!
-  rspec
+  rspec (~> 3.4, >= 3.4.0)
 
 BUNDLED WITH
    1.17.3

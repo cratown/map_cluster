@@ -16,7 +16,7 @@ class MapCluster::Calculator
   def pixel_to_coordinates(pixel, coordinate, tile)
     tile.x = pixel.x/tile.tile_size.to_f
     tile.y = pixel.y/tile.tile_size.to_f
-    number_to_lat_lng(tile, coordinate)
+    tile_to_coordinates(tile, coordinate)
   end
 
   def tile_to_coordinates(tile, coordinate)

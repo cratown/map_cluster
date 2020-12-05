@@ -33,4 +33,4 @@ whenever possible.
 
 ## Copyright and License
 
-[MIT License](LICENSE-MIT) © Łukasz Kaczmarek
+MIT Licens © Łukasz Kaczmarek
