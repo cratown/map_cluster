@@ -1,24 +1,14 @@
 PATH
   remote: .
   specs:
-    map_cluster (0.0.0)
-      geocoder
+    map_cluster (0.1.0)
+      geocoder (>= 1.6.1)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    byebug (8.2.2)
-    coderay (1.1.0)
     diff-lcs (1.2.5)
-    geocoder (1.3.1)
-    method_source (0.8.2)
-    pry (0.10.3)
-      coderay (~> 1.1.0)
-      method_source (~> 0.8.1)
-      slop (~> 3.4)
-    pry-byebug (3.3.0)
-      byebug (~> 8.0)
-      pry (~> 0.10)
+    geocoder (1.6.4)
     rspec (3.4.0)
       rspec-core (~> 3.4.0)
       rspec-expectations (~> 3.4.0)
@@ -32,15 +22,13 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.4.0)
     rspec-support (3.4.0)
-    slop (3.6.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   map_cluster!
-  pry-byebug
   rspec
 
 BUNDLED WITH
-   1.10.6
+   1.17.3
